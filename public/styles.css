@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #86EDC2, #94CBDF);
+}
+h1{
+    border:2px solid black;
+    padding: 1rem;
+    margin: 6rem;
+    background-color: white;
+    margin-bottom: 0;
+  
+ 
+}
+ul {
+    list-style-type: none;
+  }
+ input[type="checkbox"]:checked+label{
+    text-decoration:line-through ;
+    color:	#32CD32;
+ }
+
+
+.objects{
+    border: 2px solid green;
+    color:#DC143C;
+    font-weight: bold;
+    margin: 6rem;
+    background-color: white;
+    padding: 1rem;
+    margin-top: -1rem;
+}
+.center{
+    text-align: center;
+}
+.botn{
+    font-size: 1.2rem;
+    background-color:#9645E8;
+    border: none;
+    border-radius: 100%;
+    padding: 1px 10px;
+    color: white;
+
+}
+.copyright{
+    text-align: center;
+    margin-top: 2rem;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.social_icon{
+    margin-top: 10%;
+}
+.self{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* <body class="center">
+    <h1><%=KindOfDay%></h1>
+
+    <ul class="objects">
+      <li>Buy food</li>
+      <li>cook</li>
+      <%for( i=0;i< newListItems.length;i++){%>
+      <li><%= newListItems[i] %></li>
+      <% } %>
+     
+    
+    </ul>
+      <form action="/" method="post">
+        <input type="text" name="newItem" />
+        <button class="botn" type="submit">+</button>
+      </form>
+
+
+    <%-include("partials/footer.ejs")%>\
+    <script>
+      function validateForm() {
+        const newItemInput = document.getElementById("newItemInput");
+        if (newItemInput.value.trim() === "") {
+          alert("Please enter a valid todo item.");
+          return false; // Prevent form submission
+        }
+        return true; // Allow form submission
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html> */
